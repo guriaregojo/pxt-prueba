@@ -180,6 +180,9 @@ pins.A2.digitalWrite(false);
 pins.A3.digitalWrite(false);
 pins.A4.digitalWrite(false);
 pause(3000)
+pins.A2.digitalWrite(true);
+pins.A3.digitalWrite(true);
+pins.A4.digitalWrite(true);
 add=control.millis()-start
 mytotal=add+mytotal
 Number(mytotal,15,150,1);
