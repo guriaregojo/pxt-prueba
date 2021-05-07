@@ -174,7 +174,7 @@ pause(1000); //give time for OLED to initialize
 clear(); //borro todo por si acaso
 
 //encencer ventiladores
-if (total<=15*1000){
+if (mytotal<=15*1000){
 start=control.millis();
 pins.A2.digitalWrite(false);
 pins.A3.digitalWrite(false);
